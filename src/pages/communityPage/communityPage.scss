@@ -1,0 +1,147 @@
+.scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background: #a6c;
+    border-radius: 10px;
+}
+
+.CommunityPage {
+    padding: 0;
+    padding-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: left;
+    background-position: center;
+    background-color: #fbf2f4;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    .mt-10 {
+        margin-top: 10px;
+    }
+    .card {
+        box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+        border-width: 0;
+        padding-top: 1rem;
+        transition: all 0.2s;
+    }
+    .card-header:first-child {
+        border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    }
+    .card-header {
+        display: flex;
+        align-items: center;
+        border-bottom-width: 1px;
+        padding-top: 0;
+        padding-bottom: 1rem;
+        padding-right: 0.625rem;
+        height: 3.5rem;
+        // text-transform: uppercase;
+        background-color: #fff;
+        border-bottom: 1px solid rgba(26, 54, 126, 0.125);
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #aa66cc !important;
+        border-color: #a6c !important;
+    }
+    .comment-list {
+        list-style: none;
+        margin-top: 20px;
+        padding: 0 20px;
+        .btn {
+            font-size: 0.8rem;
+            font-weight: 500;
+            outline: none !important;
+            position: relative;
+            transition: color 0.15s, background-color 0.15s, border-color 0.15s, box-shadow 0.15s;
+        }
+        .card-body {
+            flex: 1 1 auto;
+            padding: 2rem;
+        }
+        a {
+            color: #e91e63;
+            text-decoration: none !important;
+            background-color: transparent;
+        }
+        .media img {
+            margin: 0 -20px;
+        }
+        /* Post something*/
+        .guidelines {
+            //background-image: url('https://image.freepik.com/free-vector/abstract-pastel-watercolor-texture-background_10126-1199.jpg');
+            background-position: center;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-attachment: unset;
+            background-size: cover;
+        }
+        .community-rules {
+            list-style: none;
+        }
+        .community-rules li {
+            margin-bottom: 1rem;
+        }
+        .community-button {
+            display: flex;
+            justify-content: flex-end;
+        }
+        #post-start,
+        .comment {
+            outline: none;
+            padding: 5px;
+        }
+        .comment {
+            margin-top: 15px;
+        }
+        .comment-list {
+            list-style: none;
+            margin-top: 20px;
+            .written-post {
+                margin-left: -20px;
+            }
+        }
+        #post-content {
+            margin-bottom: -30px;
+        }
+    }
+    .col-md-12 {
+        max-width: 70% !important;
+        margin: 20px auto;
+        margin-bottom: 0px;
+    }
+    .load-more {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    @media only screen and (max-width: 768px) {
+        .col-md-12 {
+            max-width: 95% !important;
+            margin: 20px auto;
+            margin-bottom: 0px;
+        }
+        .rightContainer {
+            padding-left: 2rem;
+        }
+        .user-image {
+            margin-left: -10px;
+        }
+        .media-body h3 {
+            font-size: 1.4rem;
+        }
+        .community-rules {
+            margin-left: -40px;
+        }
+    }
+}

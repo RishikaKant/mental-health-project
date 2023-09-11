@@ -1,0 +1,37 @@
+.BlogPage {
+  .jumbotron {
+    background: url("../../assets/blog.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+  }
+
+  .give-mask {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+  }
+
+  .display-4 {
+    font-size: 3rem;
+  }
+
+  .whit {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  #jumbotronText {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+  }
+
+  .btn {
+    color: #fff;
+
+    &:hover {
+      color: rgb(63, 62, 62);
+    }
+  }
+}
