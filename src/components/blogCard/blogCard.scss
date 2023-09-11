@@ -1,0 +1,36 @@
+.blogCard {
+  padding: 0 !important;
+  margin: 0 20px !important;
+  margin-top: 40px !important;
+  border-radius: 0.8rem;
+  box-shadow: rgb(175, 175, 175) 0px 0.02rem 0.4rem;
+  &:hover {
+    border-color: rgb(232, 232, 232);
+    box-shadow: rgb(131, 131, 131) 0px 0.02rem 0.4rem;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+  }
+  .card-image {
+    height: 12rem !important;
+    object-fit: cover;
+    width: 100%;
+    margin: auto;
+    padding: 0 !important;
+    border-radius: 0.8rem 0.8rem 0 0;
+  }
+
+  .view.overlay {
+    border-radius: 0.8rem 0.8rem 0 0 !important;
+  }
+
+  h6,
+  h4 {
+    text-align: center !important;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: justify;
+  text-justify: inter-word;
+}
